@@ -48,7 +48,6 @@ public class MobileLockPattern {
 		boolean check = true;
 		boolean isAnyEdgeTwice = false;
 		boolean isEdgeExists = false;
-		int edgeCount = 0;
 		String edge = "";
 		String reverseEdge = "";
 		
@@ -70,7 +69,6 @@ public class MobileLockPattern {
 				if(key.equals(edge) || key.equals(reverseEdge))
 				{
 					isEdgeExists = true;
-					edgeCount = edgeCount + 1;
 				}
 				mapLog.append(key+"-"+value+"~");
 			}
