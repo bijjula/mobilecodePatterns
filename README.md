@@ -22,8 +22,11 @@
   - step 1.7 End the traverse once you complete all possibilities for the given position.
   - step 1.8 end.
 
-## Missing Points
+## Improvements
 - We could have construct a Class for edge storage with methods like getEdge(), getReverseEdge(), compareEdges(), and count of Occurances.
+- User Input can be taken for assumptions. Do you need reflexive support? ..etc
+- As of now it is just an algorithm, keeping in mind the ASK for only 'total # of possible patterns' to print. No UI is considered.
+- Unit tests..etc to form a production ready code.
 
 ## Assumptions
 - Only Straight and Diagnoal traversals are considered for edge formation. No curve. Example (1,3) is not considered as edge because we cannot connect both vertices with straight line.
